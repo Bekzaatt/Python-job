@@ -1,0 +1,54 @@
+1️⃣ Test Case: Sign Up Test
+
+Objective: Verifying that a new user can successfully sign up.
+Steps:
+Open browser https://www.demoblaze.com
+Click “Sign up” button
+Enter username and password
+Click “Sign up”
+Accept confirmation alert
+Close browser
+
+Expected Result:
+User is successfully registered and confirmation alert appears.
+
+2️⃣ Test Case: Log In Test
+
+Objective: Verifying that an existing user can log in successfully.
+Steps:
+Open browser https://www.demoblaze.com
+Click “Log in” button
+Enter username and password
+Click “Log in”
+Wait for user to be logged in
+Close browser
+
+Expected Result:
+User is logged in successfully and the login modal disappears.
+
+3️⃣ Test Case: Log Out Test
+Objective: Verify that a logged-in user can log out successfully.
+Steps:
+Open browser https://www.demoblaze.com
+Log in using valid credentials
+Wait for login to complete
+Click “Log out” button
+Close browser
+
+Expected Result:
+User is logged out and “Log in” button becomes visible again.
+
+4️⃣ Test Case: Buy Product Test
+Objective: Verifying that a logged-in user can buy a product successfully.
+Steps:
+Open browser and go to https://www.demoblaze.com
+Log in using valid credentials
+Wait for login to complete
+Click on a product (e.g., “Samsung galaxy s6”)
+Click “Add to cart”
+Accept confirmation alert
+Check item added to cart
+Close browser
+
+Expected Result:
+Product is successfully added to the cart and confirmation alert appears.
