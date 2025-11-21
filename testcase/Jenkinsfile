@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage('Chrome Tests') {
+            steps {
+                bat 'robot --variable browser:chrome demoblaze.robot'
+            }
+        }
+        stage('Firefox Tests') {
+            steps {
+                bat 'robot --variable browser:firefox demoblaze.robot'
+            }
+        }
+        stage('Edge Tests') {
+            steps {
+                bat 'robot --variable browser:edge demoblaze.robot'
+            }
+        }
+    }
+}

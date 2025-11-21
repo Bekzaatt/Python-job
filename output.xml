@@ -1,137 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-10-23T10:00:42.762424" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-21T22:00:52.903163" rpa="false" schemaversion="5">
 <suite id="s1" name="PythonProject" source="C:\Users\Asus\PycharmProjects\PythonProject">
 <suite id="s1-s1" name="Testcase" source="C:\Users\Asus\PycharmProjects\PythonProject\testcase">
 <suite id="s1-s1-s1" name="Demoblaze" source="C:\Users\Asus\PycharmProjects\PythonProject\testcase\demoblaze.robot">
-<test id="s1-s1-s1-t1" name="Buy Product Test" line="42">
-<kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-10-23T10:00:44.339612" level="INFO">Opening browser 'chrome' to base url 'https://www.demoblaze.com'.</msg>
-<arg>https://www.demoblaze.com</arg>
-<arg>chrome</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-10-23T10:00:44.339304" elapsed="8.975924"/>
+<test id="s1-s1-s1-t1" name="Buy Product Test" line="45">
+<kw name="Open BrowserStack Session" owner="browserstack">
+<msg time="2025-11-21T22:00:54.357421" level="FAIL">Variable '${browser}' not found.</msg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2025-11-21T22:00:54.353340" elapsed="0.004162">Variable '${browser}' not found.</status>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>id:login2</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-10-23T10:00:53.330134" elapsed="0.072250"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.363401" elapsed="0.000068"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-10-23T10:00:53.403538" level="INFO">Clicking element 'id:login2'.</msg>
 <arg>id:login2</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-10-23T10:00:53.403133" elapsed="0.350430"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.363720" elapsed="0.000027"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>id:logInModal</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-10-23T10:00:53.757055" elapsed="0.426496"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.363996" elapsed="0.000045"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-10-23T10:00:54.223953" level="INFO">Typing text 'bekzat' into text field 'id:loginusername'.</msg>
 <arg>id:loginusername</arg>
 <arg>bekzat</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-10-23T10:00:54.222594" elapsed="0.532118"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.364299" elapsed="0.000030"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-10-23T10:00:54.757656" level="INFO">Typing text '123456' into text field 'id:loginpassword'.</msg>
 <arg>id:loginpassword</arg>
 <arg>123456</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-10-23T10:00:54.757247" elapsed="0.282897"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.364513" elapsed="0.000023"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-10-23T10:00:55.043864" level="INFO">Clicking button 'xpath://button[text()='Log in']'.</msg>
 <arg>xpath://button[text()='Log in']</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-10-23T10:00:55.041315" elapsed="0.464270"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.364687" elapsed="0.000020"/>
 </kw>
 <kw name="Wait Until Element Is Not Visible" owner="SeleniumLibrary">
 <arg>id:logInModal</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is not visible.</doc>
-<status status="PASS" start="2025-10-23T10:00:55.507181" elapsed="1.375687"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.364846" elapsed="0.000021"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath://a[text()='Samsung galaxy s6']</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-10-23T10:00:56.883336" elapsed="0.468454"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.365009" elapsed="0.000028"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-10-23T10:00:57.353000" level="INFO">Clicking element 'xpath://a[text()='Samsung galaxy s6']'.</msg>
 <arg>xpath://a[text()='Samsung galaxy s6']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-10-23T10:00:57.352753" elapsed="1.236141"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.365275" elapsed="0.000021"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-10-23T10:01:00.592668" level="INFO">Slept 2 seconds.</msg>
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-10-23T10:00:58.591597" elapsed="2.001350"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.365442" elapsed="0.000021"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath://a[text()='Add to cart']</arg>
 <arg>15s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-10-23T10:01:00.593567" elapsed="0.030908"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.365702" elapsed="0.000030"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-10-23T10:01:00.625211" level="INFO">Clicking element 'xpath://a[text()='Add to cart']'.</msg>
 <arg>xpath://a[text()='Add to cart']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-10-23T10:01:00.624972" elapsed="0.118353"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.365897" elapsed="0.000021"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-10-23T10:01:02.747368" level="INFO">Slept 2 seconds.</msg>
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-10-23T10:01:00.746727" elapsed="2.001247"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.366084" elapsed="0.000026"/>
 </kw>
 <kw name="Handle Alert" owner="SeleniumLibrary">
-<msg time="2025-10-23T10:01:02.753349" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
 <arg>accept</arg>
 <doc>Handles the current alert and returns its message.</doc>
-<status status="PASS" start="2025-10-23T10:01:02.752918" elapsed="0.053636"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.366316" elapsed="0.000028"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-10-23T10:01:02.808078" level="INFO">Clicking element 'id:cartur'.</msg>
 <arg>id:cartur</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-10-23T10:01:02.807699" elapsed="1.474737"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.366501" elapsed="0.000020"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-10-23T10:01:07.286204" level="INFO">Slept 3 seconds.</msg>
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-10-23T10:01:04.283152" elapsed="3.003322"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.366868" elapsed="0.000041"/>
 </kw>
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>xpath://td[contains(text(),'Samsung galaxy s6')]</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2025-10-23T10:01:07.287665" elapsed="0.040352"/>
+<status status="NOT RUN" start="2025-11-21T22:00:54.367724" elapsed="0.000039"/>
 </kw>
-<status status="PASS" start="2025-10-23T10:00:44.338109" elapsed="23.000420"/>
+<status status="FAIL" start="2025-11-21T22:00:54.351285" elapsed="0.016756">Variable '${browser}' not found.</status>
 </test>
-<status status="PASS" start="2025-10-23T10:00:42.923155" elapsed="24.429811"/>
+<status status="FAIL" start="2025-11-21T22:00:53.003346" elapsed="1.371722"/>
 </suite>
-<status status="PASS" start="2025-10-23T10:00:42.920877" elapsed="24.435231"/>
+<status status="FAIL" start="2025-11-21T22:00:53.000606" elapsed="1.375634"/>
 </suite>
-<status status="PASS" start="2025-10-23T10:00:42.769258" elapsed="24.588464"/>
+<status status="FAIL" start="2025-11-21T22:00:52.908759" elapsed="1.468101"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="PythonProject" id="s1" pass="1" fail="0" skip="0">PythonProject</stat>
-<stat name="Testcase" id="s1-s1" pass="1" fail="0" skip="0">PythonProject.Testcase</stat>
-<stat name="Demoblaze" id="s1-s1-s1" pass="1" fail="0" skip="0">PythonProject.Testcase.Demoblaze</stat>
+<stat name="PythonProject" id="s1" pass="0" fail="1" skip="0">PythonProject</stat>
+<stat name="Testcase" id="s1-s1" pass="0" fail="1" skip="0">PythonProject.Testcase</stat>
+<stat name="Demoblaze" id="s1-s1-s1" pass="0" fail="1" skip="0">PythonProject.Testcase.Demoblaze</stat>
 </suite>
 </statistics>
 <errors>
