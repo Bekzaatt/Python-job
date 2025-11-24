@@ -1,0 +1,17 @@
+Test descriptions
+
+Sign Up Test
+
+Opens browser and navigates to signup modal
+Fills registration form with username "bekzat" and password "123456"
+Submits the form and handles confirmation alert
+Verifies user can successfully create account
+
+Log In Test
+
+Opens browser and accesses login modal
+Enters credentials "bekzat"/"123456"
+Submits login form and waits for authentication
+Verifies user can successfully log into existing account
+Purpose: These automated tests validate the core authentication functionality - user registration and login
+processes on the web application.
